@@ -1,8 +1,8 @@
-from email import encoders
+import smtplib
 from email.header import Header
 from email.mime.text import MIMEText
 from email.utils import parseaddr, formataddr
-import smtplib
+
 from emotion.config import cfg
 
 

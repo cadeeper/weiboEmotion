@@ -1,12 +1,15 @@
-import time
-import random
-import hmac
-import hashlib
 import binascii
-from urllib import request
-import urllib
+import hashlib
+import hmac
 import json
+import random
+import time
+import urllib
+from urllib import request
+
 from emotion.config import cfg
+
+
 class TextSentimentResult(object):
 
     def __init__(self):

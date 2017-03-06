@@ -1,9 +1,10 @@
-from emotion.emotion import Emotion
 import time
-from emotion.tools.mails import MailsUtil
+
 from emotion.config import cfg
 from emotion.config import path
+from emotion.emotion import Emotion
 from emotion.tools.date_util import DateUtil
+from emotion.tools.mails import MailsUtil
 
 
 def get_negative(emotions_list):

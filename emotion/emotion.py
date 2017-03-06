@@ -1,7 +1,9 @@
-from .qcloud.textSentimentSDK import TextSentimentSDK
-from urllib import request
 from html.parser import HTMLParser
+from urllib import request
+
+from .qcloud.textSentimentSDK import TextSentimentSDK
 from .tools.date_util import DateUtil
+
 
 class MyParser(HTMLParser):
 
